@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #808080;
+    height: 200vh;
+}
+header{
+    background-color: #0B182D;
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    width: 100%;
+    background-color: #0B182D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    transition: all 0.5s ease;
+    position: fixed;
+}
+/*.nav.active{
+    background: #0B182D;
+    padding: 25px;
+    height: 20vh;
+}
+.nav.active .logo,
+.nav.active a{
+    color: #DEDEDE;
+}
+.nav.active a:hover{
+    background: #FFC709;
+    color: white;
+}
+.nav.active .contact{
+    color: #FFC709;
+}*/
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #DEDEDE;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu .contact{
+    color: #FFC709;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #0B182D;
+    color: #FFC709;
+    border-radius: 15px;
+}
+.scrol {
+    height: 100%;
+}
+h1{
+    color: white;
+}
+/*Aquí empieza la home */
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    background-color: #0B182D;
+    padding: 5%;
+}
+.descriptionweb h1{
+    font-size: 3em;
+    color: #DEDEDE;
+}
+.descriptionweb p{
+    color: #FFC709;
+}
+.image_home img{
+    border-radius: 100px 100px 100px 0;
+}
+
+/*Aquí empieza el FAQ*/
+.final .container_final{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.final{
+    color: white;
+    background-color: #0B182D;
+    width: 100%;
+    margin: 0;
+}
+.container_final .questions{
+    list-style: none;
+}
+.container_final .questions a{
+    text-decoration: none;
+    color: white;
+}
+.container_final .questions a:hover{
+    color: #FFC709;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+
+}
+.FAQ h3{
+    font-size: 3em;
+    font-family: 'Share Tech', sans-serif;
+}
+.container_final{
+    margin: 0;
+    padding: 25px;
+}
+button{
+    font-family: 'Share Tech', sans-serif;
+    background-color: #0B182D;
+    border-radius: 10px;
+    padding: 10px;
+}
+.FAQ button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*footer*/
+footer{
+    color: white;
+    background-color: #0B182D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0;
+    gap: 25px;
+}
