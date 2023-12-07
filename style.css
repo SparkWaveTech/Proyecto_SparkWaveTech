@@ -165,7 +165,6 @@ footer{
 .design-solutions {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
     margin-top: 20px;
     padding: 10vh;
 }
@@ -193,19 +192,20 @@ footer{
     font-weight: 500;
     color:#DEDEDE;
     width: 100%; /*ASEGURA LA VISIBILIDAD DE TODO EL TITULO*/
+    margin-left: 150px;
 }
 
 .services-h6 {
     color: #1736F5;
     font-family: share tech;
     font-weight: 800;
+    margin-left: 150px;
 }
 
 
 /* SECOND PART PRINCIPIOS*/
 
 .principios {
-    margin-left: 150px;
     padding: 10vh;
     display: flex;
     justify-content: space-around;
@@ -224,6 +224,8 @@ footer{
     font-size: 22px;
     color: #DEDEDE;
     padding: 10vh;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -235,12 +237,9 @@ footer{
 .left-ux {
     margin-top: -850px;
     width: 100%; /*ASEGURA LA VISIBILIDAD COMPLETA DEL TITULO*/
-    margin-left: 5vh;
-    text-align: center;
 }
 
 .ux-experience {
-    margin-left: 90px;
     padding: 10vh;
     display: flex;
     justify-content: space-evenly;
@@ -251,14 +250,18 @@ footer{
 .ux-experience-img {
     width: 650px;
     height: 600px;
-    margin-left: -600px;
+    margin-left: -300px;
 }
 
 .ux-list {
     color: #DEDEDE;
     list-style: none;
-    margin-left: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
 }
+
+
+/*FOURTH PART OF WEBPAGE*/
 
 /* SOLUTIONS */
 
@@ -266,32 +269,87 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 20vh;
     margin-bottom: 250px;
 }
 
 .solutions-title {
    display: flex;
-   margin-bottom: 10vh;
+   margin-bottom: 15vh;
+}
+
+.services-solutions-h6 {
+    color: #1736F5;
+    margin-top: -15px;
+    margin-left: -1470px;
 }
 
 .solutions-description {
     color: #DEDEDE;
-    margin-right: 15vh;
-    margin-left: 5vh;
+    margin-right: 150px;
+    margin-left: 250px;
 }
 
 .solutions-list {
     list-style: none;
     color: #DEDEDE;
+    display: flex;
+    flex-direction: column;
 }
 
 .item-title {
     font-family: share tech;
     font-size: 40px;
-    line-height: 20vh;
+    padding: 30px;
+    margin-left: 10vh;
+    line-height: 80px;
 }
 
 .item-detail {
-    
+    margin-left: 150px;
+    margin-right: 950px;
+    margin-bottom: 60px;
+}
+
+
+/* FIFTH SUCCESS STORIES */
+
+/*PICTURE OF CLOTHIGN SHOP */
+
+.happyvintage-img {
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.icon-arrow {
+    margin-left: 520px;
+    margin-top: 30px;
+}
+
+.container-happyvintage {
+    display: flex;
+    flex-direction: row; /* Cambiado de column a row */
+    justify-content: end;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.services-h3 {
+    font-family: share tech;
+    color: #FFC709;
+    font-weight: 350;
+    font-size: 28px;
+        border-bottom: 1px solid #1736F5; /* Puedes ajustar el color y grosor de la línea aquí */
+        padding-bottom: 10px; /* Puedes ajustar el espaciado inferior según sea necesario */
+}
+
+.line-story {
+    width: 1px; /* Puedes ajustar la anchura de la línea aquí */
+    background-color: #1736F5; /* Puedes ajustar el color de la línea aquí */
+    margin: 0 10px; /* Puedes ajustar el margen lateral según sea necesario */
+}
+
+.story-description {
+    color: #DEDEDE;
+    margin-left: 50px;
 }
