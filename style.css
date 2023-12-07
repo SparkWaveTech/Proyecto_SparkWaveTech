@@ -235,8 +235,9 @@ footer{
 .left-ux {
     margin-top: -850px;
     width: 100%; /*ASEGURA LA VISIBILIDAD COMPLETA DEL TITULO*/
+    margin-left: 5vh;
+    text-align: center;
 }
-
 
 .ux-experience {
     margin-left: 90px;
@@ -256,4 +257,41 @@ footer{
 .ux-list {
     color: #DEDEDE;
     list-style: none;
+    margin-left: 200px;
+}
+
+/* SOLUTIONS */
+
+.solutions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20vh;
+    margin-bottom: 250px;
+}
+
+.solutions-title {
+   display: flex;
+   margin-bottom: 10vh;
+}
+
+.solutions-description {
+    color: #DEDEDE;
+    margin-right: 15vh;
+    margin-left: 5vh;
+}
+
+.solutions-list {
+    list-style: none;
+    color: #DEDEDE;
+}
+
+.item-title {
+    font-family: share tech;
+    font-size: 40px;
+    line-height: 20vh;
+}
+
+.item-detail {
+    
 }
