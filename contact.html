@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo"><a href=""><img src="./Images/logoSWT.png" alt="logo de la empresa simulando una S"></a></div>
+                <ul class="menu">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a class="contact" href="">Contacta</a></li>
+                </ul>
+        </nav>
+    </header> 
+    
+    <section>
+        <h1>Contáctenos</h1>
+        <p>¡Gracias por tu interés en SparkWave Tech!
+        Si tienes alguna consulta o necesitas más información, por favor completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+    <form action="/procesar_formulario" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <label for="archivo">Adjuntar Archivo:</label>
+        <input type="file" id="archivo" name="archivo"><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </section>
+    
+    <section>
+        <h1>CONTACT INFO</h1>
+        <p>SparkWave Tech</p>
+        <h1>CORREO ELECTRÓNICO</h1>
+        <p>info@sparkwave.com</p>
+        <h1>TELÉFONO</h1>
+        <p>910 72 45 36</p>
+        <h1>UBICACIÓN</h1>
+        <p>Calle de la Innovación, 29, Madrid, 28009</p>
+    </section>
+
+        <footer>
+            <div class="social">
+                <a href="https://www.facebook.com/?locale=es_ES"><img src="./Images/Facebook.png" alt="logo de la red social Facebook"></a>
+                <a href="https://twitter.com/?lang=es"><img src="./Images/Twitter.png" alt="logo de la red social twitter"></a>
+                <a href="https://www.instagram.com/"><img src="./Images/Instagram.png" alt="logo de la red social instagram"></a>
+                <a href="https://es.linkedin.com/"><img src="./Images/In.png" alt="logo de la red social linkedin"></a>
+                <a href="https://github.com/"><img src="./Images/G.png" alt="logo de la red social Github"></a>
+            </div>
+            <p>Copyright © 2023 SparkWave Technology. </p>
+        </footer> 
+    
+</body>
+</html>
