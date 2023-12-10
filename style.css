@@ -77,7 +77,7 @@ h1{
 .image_home img{
     border-radius: 100px 100px 100px 0;
 }
-
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
 .final .container_final{
     display: flex;
@@ -127,8 +127,7 @@ button{
     color: white;
     text-decoration: none;
 }
-
-
+/**---------------------------------------------------------------*/
 /*footer*/
 footer{
     color: white;
@@ -140,4 +139,97 @@ footer{
     padding: 25px;
     margin: 0;
     gap: 25px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*A partir de aquí empieza la página de Nosotros */
+.Nosotros{
+    background-color: #0B182D;
+    height: 30vh;
+}
+.descriptionTeam {
+    color: #DEDEDE;
+    display: grid;
+}
+.textTeam{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+.text_rectangle h4{
+    color: #DEDEDE;
+    font-size: 4em;
+    font-family: 'Share Tech', sans-serif;
+    margin: 0;
+}
+.text_rectangle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.text_rectangle img {
+    max-width: 100%;
+        height: auto;
+        margin: 10px;
+}
+.images_team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.images_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.coder {
+    color: #DEDEDE;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.coder h6{
+    font-family: 'Share Tech', sans-serif;
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.coder h5{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    text-align: left
+}
+.coder p{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1em;
+}
+.team_person{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2%;
+    gap: 3%;
+}
+.Our_team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-auto-rows: minmax(100px, auto);*/
+    gap: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
 }
