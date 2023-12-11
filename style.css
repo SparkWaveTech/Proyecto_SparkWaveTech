@@ -27,22 +27,7 @@ header{
     transition: all 0.5s ease;
     position: fixed;
 }
-/*.nav.active{
-    background: #0B182D;
-    padding: 25px;
-    height: 20vh;
-}
-.nav.active .logo,
-.nav.active a{
-    color: #DEDEDE;
-}
-.nav.active a:hover{
-    background: #FFC709;
-    color: white;
-}
-.nav.active .contact{
-    color: #FFC709;
-}*/
+
 .menu{
     display: flex;
 }
