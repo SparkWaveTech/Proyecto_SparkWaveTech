@@ -158,3 +158,12 @@ footer{
 }
 /*------------------------------------------------------------------------------*/
 /*Inicio página blog*/
+.blog p,h1,h3{
+    color: #DEDEDE;
+}
+.blog noticia{
+    flex: auto;
+}
+.blog img{
+    border-radius: 200px 0px 200px 200px;
+}
