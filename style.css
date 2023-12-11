@@ -161,6 +161,7 @@ footer{
 .blog{
     color: #DEDEDE;
     background-color: #0B182D;
+    font-family: 'Open Sans', sans-serif;
 }
 .inicio-blog{
     margin-left: 2%;
@@ -175,5 +176,30 @@ footer{
     height: 218px;
     flex-shrink: 0;
 }
+.bloque-noticias {
+    display: flex;
+    width: 100%; /* Ancho deseado para el contenedor */
+    margin: 5%;
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+}
+.noticia {
+    flex: 1; /* Opción para dividir el espacio igualmente entre los bloques */
+    /* Otros estilos para los bloques */
+    vertical-align: top; /* Alinea la imagen al inicio verticalmente */
+}
+.noticia h3 {
+ font-family: 'Share Tech', sans-serif;
+}
+
+.imagennoticia {
+    display: flex;
+}
+.textonoticia{
+    width: 50%;
+  display: inline-block;
+}
+
+
+
 /*FIN PÁGINA DE BLOG*/
 /*------------------------------------------------------------------------------*/
