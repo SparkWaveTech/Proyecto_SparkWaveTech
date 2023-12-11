@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 200vh;
+    background-color: #d9d9d9;
+}
 .services__home {
     font-family: 'Open Sans', sans-serif;
     height: 200vh;
