@@ -94,20 +94,23 @@ h1{
     text-align: right;
 }
 .boton_contact{
-    position: absolute;
+    position: fixed;
     color: #DEDEDE;
     background-color: #0B182D;
     font-size: 25px;
     font-family: Open Sans;
     font-weight: 700;
-    padding: 3%;
+    padding: 2%;
     top: 80%;
-    left: 82%;
+    left: 90%;
     transform: translate(-50%, -50%);
     border-radius: 100px;
 }
 .image_home img{
     border-radius: 100px 100px 100px 0;
+}
+.porcentage{
+    color: #DEDEDE;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
