@@ -246,7 +246,7 @@ footer{
 }
 
 /*----------------------------------------------------------------------------*/
-/* SERVICES WEBSITE - LEITE */
+/* SERVICES WEBSITE */
 
 /* FIRST SECTION DESIGN-SOLUTIONS */
 
@@ -367,7 +367,7 @@ footer{
 
 .services-solutions-h6 {
     color: #1736F5;
-    margin-top: -15px;
+    font-family: share tech;
 }
 
 .solutions-description {
@@ -382,6 +382,10 @@ footer{
     display: flex;
     flex-direction: column;
     margin-bottom: 18%;
+}
+
+details {
+    list-style: none;
 }
 
 .item-title {
