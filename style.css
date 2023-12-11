@@ -80,9 +80,31 @@ h1{
 .descriptionweb h1{
     font-size: 3em;
     color: #DEDEDE;
+    font-size: 70px;
+    font-family: Open Sans;
+    font-weight: 600;
 }
 .descriptionweb p{
     color: #FFC709;
+    font-size: 30px;
+    font-family: Share Tech;
+    font-weight: 400;
+}
+.descriptionweb{
+    text-align: right;
+}
+.boton_contact{
+    position: absolute;
+    color: #DEDEDE;
+    background-color: #0B182D;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 700;
+    padding: 3%;
+    top: 80%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
 }
 .image_home img{
     border-radius: 100px 100px 100px 0;
@@ -127,15 +149,12 @@ h1{
     margin: 0;
     padding: 25px;
 }
-button{
+.boton_questions {
     font-family: 'Share Tech', sans-serif;
     background-color: #0B182D;
     border-radius: 10px;
     padding: 10px;
-}
-.FAQ button a{
-    color: white;
-    text-decoration: none;
+    color: #d9d9d9;
 }
 /**---------------------------------------------------------------*/
 /*footer*/
@@ -444,4 +463,42 @@ footer{
 
 .services-project-button {
     color: #DEDEDE;
+}
+
+/*--------VERSION MÓVIL-----------*/
+@media only screen and (max-width: 708px){
+
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image_home{
+        width: 100%;
+    }
+    .descriptionweb h1{
+        font-size: 2em;
+    }
+    .descriptionweb p{
+        font-size: 1em;
+    }
+    .boton_contact{
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .container_final{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions{
+        margin-top: 10%;
+    }
+
+
+
 }
