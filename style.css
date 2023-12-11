@@ -162,6 +162,13 @@ footer{
     color: #DEDEDE;
     background-color: #0B182D;
 }
+.inicio-blog{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #0B182D;
+}
 .blog img{
     border-radius: 200px 0px 200px 200px;
     width: 239px;
