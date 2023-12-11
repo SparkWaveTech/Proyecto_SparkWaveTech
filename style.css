@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body-services {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.services__home {
+    font-family: 'Open Sans', sans-serif;
     height: 200vh;
     background-color: #0B182D;
 }
@@ -37,6 +37,7 @@ header{
 .menu li{
     list-style: none;
     margin: 15px;
+    font-family: 'Share Tech', sans-serif;
 }
 .menu li a{
     text-decoration: none;
@@ -44,6 +45,7 @@ header{
     color: #DEDEDE;
     font-weight: bold;
     transition: all 0.5s ease;
+    font-family: 'Share Tech', sans-serif;
 }
 .menu .contact{
     color: #FFC709;
