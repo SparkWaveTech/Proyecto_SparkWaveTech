@@ -250,22 +250,21 @@ footer{
 
 /* SOLUTIONS */
 
-.solutions {
+.solutions .solutions-title{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 250px;
+    flex-direction: row;
+    margin-bottom: 10%;
 }
 
-.solutions-title {
-   display: flex;
-   margin-bottom: 15vh;
+.solutions h6 {
+    text-align: left;
+    margin-left: 8%;
 }
 
 .services-solutions-h6 {
     color: #1736F5;
     margin-top: -15px;
-    margin-left: -1470px;
 }
 
 .solutions-description {
@@ -279,6 +278,7 @@ footer{
     color: #DEDEDE;
     display: flex;
     flex-direction: column;
+    margin-bottom: 18%;
 }
 
 .item-title {
