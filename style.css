@@ -197,10 +197,20 @@ footer{
 
 .imagennoticia {
     display: flex;
+    vertical-align: top;
 }
 .textonoticia{
     width: 50%;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+.textonoticia h3:hover {
+    color: #FFC709;
+}
+.imgagennoticia a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto circundante */
 }
 /*FIN PÁGINA DE BLOG*/
 /*------------------------------------------------------------------------------*/
