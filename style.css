@@ -391,16 +391,22 @@ details summary {
 }
 
 details p {
-    background-color: #d9d9d9;
-    color: #0B182D;
-    box-shadow: 1px 10px 8px 20px grey; /* sombra del contenido oculto */
-    border-radius: 5px; /* borde de la caja del contenido oculto */
+    background-color: #0B182D; /* Nuevo color de fondo (azul más oscuro) */
+    color: #d9d9d9; /* Nuevo color de texto */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Nuevo box shadow con un tono más oscuro y efecto 3D */
+    border-radius: 5px; /* Borde de la caja del contenido oculto */
 }
 
 details {
     position: relative;
 }
 
+.item-title:hover {
+    color:#FFC709;
+    cursor: pointer;
+}
+
+/* Estilo para el emoji en el summary */
 details summary::before {
     position: absolute;
     content: "🔽";
@@ -409,20 +415,28 @@ details summary::before {
     right: 10%;
 }
 
-/* ROTACION EMOJI MAS Y MENOS */
+/* Animación de rotación para el emoji cuando el details está abierto */
 details[open] summary::before {
-    -webkit-animation: rotate-emoji 0.6s ease-in-out both;
     animation: rotate-emoji 0.6s ease-in-out both;
 }
 
-@-webkit-keyframes rotate-emoji {
+/* Keyframes para la animación de rotación */
+@keyframes rotate-emoji {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0);
     }
 
     100% {
-        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate-emoji {
+    /* 0% {
+        transform: rotate(0);
+    } */
+
+    100% {
         transform: rotate(180deg);
     }
 }
@@ -461,7 +475,7 @@ details[open] summary::before {
 
 .container-happyvintage {
     display: flex;
-    flex-direction: row; /* Cambiado de column a row */
+    flex-direction: row; 
     justify-content: end;
     margin-right: 80px;
     margin-top: 20px;
@@ -472,15 +486,16 @@ details[open] summary::before {
     color: #FFC709;
     font-weight: 350;
     font-size: 28px;
-        border-bottom: 1px solid #1736F5; /* Puedes ajustar el color y grosor de la línea aquí */
-        padding-bottom: 10px; /* Puedes ajustar el espaciado inferior según sea necesario */
+    border-bottom: 1px solid #1736F5; /* Puedes ajustar el color y grosor de la línea aquí */
+    padding-bottom: 10px; /* Puedes ajustar el espaciado inferior según sea necesario */
 }
 
-.line-story {
+/* .line-story {
+    list-style:georgian;
     width: 1px; /* Puedes ajustar la anchura de la línea aquí */
-    background-color: #1736F5; /* Puedes ajustar el color de la línea aquí */
-    margin: 0 10px; /* Puedes ajustar el margen lateral según sea necesario */
-}
+    /* background-color: #1736F5; /* Puedes ajustar el color de la línea aquí */
+    /* margin: 0 2vw 0.5vw; Puedes ajustar el margen lateral según sea necesario
+}  */
 
 .story-description {
     color: #DEDEDE;
