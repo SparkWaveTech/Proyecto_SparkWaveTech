@@ -450,13 +450,17 @@ footer{
     color: #DEDEDE;
     background-color: #0B182D;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 .inicio-blog{
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 5%;
     text-align: center;
-    background-color: #0B182D;
+}
+.blog h1 {
+    margin-left: 5%;
+    font-family: 'Share Tech', sans-serif;
 }
 .blog img{
     border-radius: 200px 0px 200px 200px;
@@ -481,13 +485,38 @@ footer{
 
 .imagennoticia {
     display: flex;
+    vertical-align: top;
 }
 .textonoticia{
     width: 50%;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
 }
-
-
-
+.textonoticia h3:hover {
+    color: #FFC709;
+}
+.imgagennoticia a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto circundante */
+}
+@media screen and (max-width: 768px) {
+    .bloque-noticias {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+    .noticia {
+        margin-top: 10%;
+        font-size: small;
+}
+.blog img{
+    border-radius: 200px 0px 200px 200px;
+    width: 139px;
+    height: 118px;
+    flex-shrink: 0;
+}
+.inicio-blog {
+    font-size: small;
+}
+}
 /*FIN PÁGINA DE BLOG*/
 /*------------------------------------------------------------------------------*/
