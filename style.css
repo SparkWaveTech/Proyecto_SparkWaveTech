@@ -7,7 +7,7 @@
 }
 body{
     height: 200vh;
-    background-color: #d9d9d9;
+    cursor: url(Images/🦆\ emoji\ _scroll_.png), auto;
 }
 .services__home {
     font-family: 'Open Sans', sans-serif;
@@ -15,12 +15,11 @@ body{
     background-color: #0B182D;
 }
 .index__home{
-    background-color: #d9d9d9;
+    background-color: #0B182D;
 }
 header{
-    background-color: #0B182D;
     width: 100%;
-    height: 20vh;
+    height: 16vh; 
     background-size: cover;
     background-position: center;
 }
@@ -28,11 +27,14 @@ header{
     width: 100%;
     background-color: #0B182D;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 2rem;
     transition: all 0.5s ease;
     position: fixed;
+}
+.nav_list{
+    display: flex;
 }
 
 .menu{
@@ -55,10 +57,13 @@ header{
     color: #FFC709;
 }
 .menu li a:hover{
-    padding: 5px 10px;
+    padding: 2rem;
     background: #0B182D;
     color: #FFC709;
     border-radius: 15px;
+}
+.open_menu, .close_menu{
+    display: none;
 }
 .scrol {
     height: 100%;
@@ -127,7 +132,7 @@ h1{
     margin: 0;
     padding: 25px;
 }
-button{
+button {
     font-family: 'Share Tech', sans-serif;
     background-color: #0B182D;
     border-radius: 10px;
@@ -158,7 +163,6 @@ footer{
 }
 .descriptionTeam {
     color: #DEDEDE;
-    display: grid;
 }
 .textTeam{
     margin-left: 20%;
@@ -168,6 +172,8 @@ footer{
     align-items: center;
     text-align: center;
     padding: 5%;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 .text_rectangle h4{
@@ -194,12 +200,6 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 5%;
-}
-.images_right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
 .coder {
     color: #DEDEDE;
@@ -238,7 +238,6 @@ footer{
 .Our_team{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /*grid-auto-rows: minmax(100px, auto);*/
     gap: 2em;
     margin-left: 5%;
     margin-right: 5%;
@@ -511,13 +510,17 @@ details[open] summary::before {
     color: #DEDEDE;
     background-color: #0B182D;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 .inicio-blog{
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 5%;
     text-align: center;
-    background-color: #0B182D;
+}
+.blog h1 {
+    margin-left: 5%;
+    font-family: 'Share Tech', sans-serif;
 }
 .blog img{
     border-radius: 200px 0px 200px 200px;
@@ -542,13 +545,126 @@ details[open] summary::before {
 
 .imagennoticia {
     display: flex;
+    vertical-align: top;
 }
 .textonoticia{
     width: 50%;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
 }
-
-
-
+.textonoticia h3:hover {
+    color: #FFC709;
+}
+.imgagennoticia a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto circundante */
+}
+@media screen and (max-width: 768px) {
+    .bloque-noticias {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+    .noticia {
+        margin-top: 10%;
+        font-size: small;
+}
+.blog img{
+    border-radius: 200px 0px 200px 200px;
+    width: 139px;
+    height: 118px;
+    flex-shrink: 0;
+}
+.inicio-blog {
+    font-size: small;
+}
+}
 /*FIN PÁGINA DE BLOG*/
 /*------------------------------------------------------------------------------*/
+/**----------Responsivo---------*/
+ @media (max-width: 768px) {
+    .Our_team {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .team_person{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_person .coder{
+        text-align: center;
+    }
+    .text_rectangle img{
+        max-width: 50%;
+        max-height: 50%;
+    }
+    .text_rectangle h4{
+        text-align: center;
+    }
+    .container_final{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions{
+        margin-top: 10%;
+    }
+    .textTeam{
+        font-size: 1em;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .img_group{
+        width: 90%;
+        height: auto;
+    }
+    .images_team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right:10%;
+        margin-left: 10%;
+    }
+    .triangleBlue{
+        width: 10%;
+        height: 10%;
+    }
+    .FAQ{
+        margin-bottom: 10%;
+    }
+    .open_menu, .close_menu{
+        display: block;
+        border: 0;
+        font-size: 1.2rem;
+        color: #DEDEDE;
+    }
+    .menu{
+        opacity: 0;
+        visibility: hidden;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #0B182D;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .menu.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav_list{
+        flex-direction: column;
+        align-items: end; 
+    }
+    .team{
+        margin-top: 10%;
+    }
+}
