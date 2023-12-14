@@ -560,6 +560,27 @@ details[open] summary::before {
     text-decoration: none;
     color: inherit; /* Hereda el color del texto circundante */
 }
+/*preguntas footer*/
+.accordion-accordion-flush{
+    color: #DEDEDE; 
+}
+.accordion-header:active {
+    color: #FFC709;
+}
+.accordion-collapse {
+    font-size: small;
+}
+.accordion-accordion-flush {
+  width: 40%; /* Ancho de 300 píxeles */
+  height: 30%; /* Alto de 200 píxeles */
+  display: block;
+}
+.accordion-item {
+    margin-top: 3%;
+}
+
+/*fin preguntas footer*/
+/*mediaqueries blog*/
 @media screen and (max-width: 768px) {
     .bloque-noticias {
         flex-direction: column; /* Cambia la dirección de los elementos a columna */
@@ -576,6 +597,17 @@ details[open] summary::before {
 }
 .inicio-blog {
     font-size: small;
+}
+.final .container_final {
+    display: block; /* Cambia a bloque para mostrar elementos uno debajo del otro */
+  }
+  .accordion-accordion-flush {
+    /* Propiedades del borde */
+  width: 100%; /* Ancho de 300 píxeles */
+  display: block;
+}
+.accordion-item {
+    margin-top: 5%;
 }
 }
 /*FIN PÁGINA DE BLOG*/
