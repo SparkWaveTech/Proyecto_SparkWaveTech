@@ -70,7 +70,7 @@ h1{
 /*Aquí empieza la home */
 
 .home{
-    background-image: url(Images/fondo\ home.png);
+    /* background-image: url(Images/fondo\ home.png); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -86,40 +86,46 @@ h1{
 .descriptionweb h1{
     font-size: 3em;
     color: #DEDEDE;
-    font-size: 6vw;
+    font-size: 4vw;
     font-family: Open Sans;
     font-weight: 600; 
     text-align: center;
 }
 .descriptionweb p{
     color: #FFC709;
-    font-size: 4vw;
+    font-size: 2vw;
     font-family: 'Share Tech', sans-serif;
     font-weight: 400;
     text-align: center;
 }
 .descriptionweb{
-    text-align: right;
+    background-image: url(/Images/fondo\ home.png);
+    text-align: center;
     width: 100%;
+    align-items: center;
 }
-.boton_contact{
-    position: fixed;
+.home_function{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.home_stadistic{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+.index_porcentage{
     color: #DEDEDE;
-    background-color: #0B182D;
-    font-size: 25px;
-    font-family: Open Sans;
-    font-weight: 700;
-    padding: 2%;
-    top: 80%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-.image_home img{
-    border-radius: 100px 100px 100px 0;
+.index_porcentage h4{
+    font-size: 3em;
 }
-.porcentage{
-    color: #DEDEDE;
+.index_porcentage p{
+    font-size: 0.9em;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
