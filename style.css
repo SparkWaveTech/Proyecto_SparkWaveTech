@@ -295,10 +295,3 @@ h1{
     margin-top: 5px;
     font-size: 16px;
 }
-
-hr {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
