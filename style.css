@@ -155,6 +155,8 @@ footer{
     padding: 25px;
     margin: 0;
     gap: 25px;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 10px;
 }
 /*------------------------------------------------------------------------------*/
 /*Inicio página blog*/
@@ -216,6 +218,7 @@ footer{
 /*preguntas footer*/
 .accordion-accordion-flush{
     color: #DEDEDE; 
+    margin-top: 3%;
 }
 .accordion-header:active {
     color: #FFC709;
@@ -231,6 +234,7 @@ footer{
 .accordion-item {
     margin-top: 3%;
 }
+  
 
 /*fin preguntas footer*/
 /*mediaqueries blog*/
