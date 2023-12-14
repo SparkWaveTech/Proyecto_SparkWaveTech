@@ -89,8 +89,12 @@ header{
 .descriptionweb p{
     color: #FFC709;
 }
-.image_home img{
+.image_home{
     border-radius: 100px 100px 100px 0;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
