@@ -485,15 +485,15 @@ details[open] summary::before {
     color: #FFC709;
     font-weight: 350;
     font-size: 28px;
-    border-bottom: 1px solid #1736F5; /* Puedes ajustar el color y grosor de la línea aquí */
-    padding-bottom: 10px; /* Puedes ajustar el espaciado inferior según sea necesario */
+    border-bottom: 1px solid #1736F5; /* ajusta el color y grosor de la línea */
+    padding-bottom: 10px; /* ajusta el espaciado inferior */
 }
 
 /* .line-story {
     list-style:georgian;
-    width: 1px; /* Puedes ajustar la anchura de la línea aquí */
-    /* background-color: #1736F5; /* Puedes ajustar el color de la línea aquí */
-    /* margin: 0 2vw 0.5vw; Puedes ajustar el margen lateral según sea necesario
+    width: 1px; /* ajusta la anchura de la línea */
+    /* background-color: #1736F5; /* ajusta el color de la línea */
+    /* margin: 0 2vw 0.5vw; /* ajusta el margen lateral según sea necesario
 }  */
 
 .story-description {
