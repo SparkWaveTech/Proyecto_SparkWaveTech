@@ -220,13 +220,17 @@ footer{
     color: #FFC709;
 }
 .accordion-collapse {
-    color: #FFC709;
+    font-size: small;
 }
 .accordion-accordion-flush {
-    /* Propiedades del borde */
   width: 40%; /* Ancho de 300 píxeles */
   height: 30%; /* Alto de 200 píxeles */
+  display: block;
 }
+.accordion-item {
+    margin-top: 3%;
+}
+
 /*fin preguntas footer*/
 /*mediaqueries blog*/
 @media screen and (max-width: 768px) {
@@ -245,6 +249,17 @@ footer{
 }
 .inicio-blog {
     font-size: small;
+}
+.final .container_final {
+    display: block; /* Cambia a bloque para mostrar elementos uno debajo del otro */
+  }
+  .accordion-accordion-flush {
+    /* Propiedades del borde */
+  width: 100%; /* Ancho de 300 píxeles */
+  display: block;
+}
+.accordion-item {
+    margin-top: 5%;
 }
 }
 /*FIN PÁGINA DE BLOG*/
