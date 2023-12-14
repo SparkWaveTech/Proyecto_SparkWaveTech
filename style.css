@@ -160,6 +160,9 @@ footer{
 }
 /*------------------------------------------------------------------------------*/
 /*Inicio página blog*/
+.blog_home {
+    background-color: #0B182D;
+}
 .blog{
     color: #DEDEDE;
     background-color: #0B182D;
