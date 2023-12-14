@@ -16,6 +16,7 @@ body{
 }
 .index__home{
     background-color: #0B182D;
+    width: 100%;
 }
 header{
     background-color: #0B182D;
@@ -77,22 +78,29 @@ h1{
     gap: 15%;
     background-color: #0B182D;
     padding: 5%;
+    width: 100%;
+}
+.index_main{
+    width: 100%;
 }
 .descriptionweb h1{
     font-size: 3em;
     color: #DEDEDE;
-    font-size: 70px;
+    font-size: 6vw;
     font-family: Open Sans;
-    font-weight: 600;
+    font-weight: 600; 
+    text-align: center;
 }
 .descriptionweb p{
     color: #FFC709;
-    font-size: 30px;
-    font-family: Share Tech;
+    font-size: 4vw;
+    font-family: 'Share Tech', sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 .descriptionweb{
     text-align: right;
+    width: 100%;
 }
 .boton_contact{
     position: fixed;
