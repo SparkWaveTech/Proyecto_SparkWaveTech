@@ -16,6 +16,7 @@ body{
 }
 .index__home{
     background-color: #0B182D;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -71,7 +72,7 @@ header{
 .title{
     color: white;
 }
-/*Aquí empieza la home */
+/*---------------------Aquí empieza la home--------------------------------------------------------- */
 
 .home{
     display: flex;
@@ -81,16 +82,67 @@ header{
     gap: 15%;
     background-color: #0B182D;
     padding: 5%;
+    width: 100%;
+}
+.index_main{
+    width: 100%;
 }
 .descriptionweb h1{
     font-size: 3em;
     color: #DEDEDE;
+    font-size: 4vw;
+    font-family: Open Sans;
+    font-weight: 600; 
+    text-align: center;
 }
 .descriptionweb p{
     color: #FFC709;
+    font-size: 2vw;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 400;
+    text-align: center;
 }
-.image_home{
-    border-radius: 100px 100px 100px 0;
+.descriptionweb{
+    background-image: url(/Images/fondo\ home.png);
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.home_function{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.home_stadistic{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+.porcentage{
+    color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index_porcentage{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+.index_porcentage h4{
+    font-size: 4em;
+}
+.index_porcentage p{
+    font-size: 0.9em;
+}
+.index_services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.index_services article{
+    width: 100%;
 }
 .logo img{
     width: 50%;
@@ -126,7 +178,6 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 3em;
-
 }
 .FAQ h3{
     font-size: 3em;
@@ -136,15 +187,12 @@ header{
     margin: 0;
     padding: 25px;
 }
-button {
+.boton_questions {
     font-family: 'Share Tech', sans-serif;
     background-color: #0B182D;
     border-radius: 10px;
     padding: 10px;
-}
-.FAQ button a{
-    color: white;
-    text-decoration: none;
+    color: #d9d9d9;
 }
 /**---------------------------------------------------------------*/
 /*footer*/
@@ -786,6 +834,34 @@ details[open] summary::before {
     .text_rectangle h4{
         text-align: center;
     }
+}
+
+/*--------VERSION MÓVIL-----------*/
+@media only screen and (max-width: 708px){
+
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image_home{
+        width: 100%;
+    }
+    .descriptionweb h1{
+        font-size: 2em;
+    }
+    .descriptionweb p{
+        font-size: 1em;
+    }
+    .boton_contact{
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
     .container_final{
         display: flex;
         flex-direction: column;
@@ -823,13 +899,9 @@ details[open] summary::before {
         border: 0;
         font-size: 1.2rem;
         color: #DEDEDE;
-        padding: ;
     }
     .open_menu{
         margin-left: 30%;
-    }
-    .close_menu{
-        ;
     }
     .menu{
         opacity: 0;
@@ -857,4 +929,20 @@ details[open] summary::before {
     .team{
         margin-top: 10%;
     }
+    /*---------------------index------------*/
+    .home_macbook{
+        width: 60%;
+    }
+    .home_function, .home_stadistic{
+        width: 34%;
+        position: absolute;
+        top: 40%;
+    }
+    .home{
+        width: 100%;
+        margin: 0;
+    }
+
+
+
 }
