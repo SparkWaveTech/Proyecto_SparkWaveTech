@@ -113,18 +113,31 @@ h1{
     top: 85%;
     right: 11%;
 }
-.index_porcentage{
+.porcentage{
     color: #DEDEDE;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+.index_porcentage{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
 .index_porcentage h4{
-    font-size: 3em;
+    font-size: 4em;
 }
 .index_porcentage p{
     font-size: 0.9em;
+}
+.index_services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.index_services article{
+    width: 100%;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
@@ -513,6 +526,19 @@ footer{
     }
     .questions{
         margin-top: 10%;
+    }
+    /*---------------------index------------*/
+    .home_macbook{
+        width: 60%;
+    }
+    .home_function, .home_stadistic{
+        width: 34%;
+        position: absolute;
+        top: 40%;
+    }
+    .home{
+        width: 100%;
+        margin: 0;
     }
 
 
