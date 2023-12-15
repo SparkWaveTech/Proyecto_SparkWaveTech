@@ -5,14 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     height: 200vh;
     cursor: url(Images/puntero.png), auto;
-}
+} */
 .services__home {
     font-family: 'Open Sans', sans-serif;
     height: 200vh;
     background-color: #0B182D;
+    width: 100%;
 }
 .index__home{
     background-color: #0B182D;
@@ -119,16 +120,18 @@ header{
     right: 11%;
 }
 .porcentage{
-    color: #DEDEDE;
+    color: #FFC709;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .index_porcentage{
+    background-image: url(/Images/fondo\ home.png);
     display: flex;
     justify-content: center;
-    gap: 10%;
     align-items: center;
+    gap: 20%;
+    margin-bottom: 50px;
 }
 .index_porcentage h4{
     font-size: 4em;
@@ -148,6 +151,28 @@ header{
     width: 50%;
     height: 50%;
 }
+.exito_history{
+    color: #DEDEDE;
+    margin-top: 10%;
+    padding: 40px;
+}
+.image_arrow{
+   text-align: center; 
+}
+.diseño_exito{
+    text-align: right;
+    padding: 40px;
+}
+.image_exito{
+    padding: 40px;
+    margin-top: 5%;
+}
+.sipSavor h3{
+    color: #FFC709;
+}
+.sipSavor{
+    padding: 40px;
+}
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
 .final .container_final{
@@ -159,7 +184,9 @@ header{
     color: white;
     background-color: #0B182D;
     width: 100%;
-    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
 }
 .container_final .questions{
     list-style: none;
@@ -187,12 +214,15 @@ header{
     margin: 0;
     padding: 25px;
 }
-.boton_questions {
+.boton_questions{
     font-family: 'Share Tech', sans-serif;
     background-color: #0B182D;
     border-radius: 10px;
     padding: 10px;
-    color: #d9d9d9;
+}
+.boton_questions a{
+    text-decoration: none;
+    color: #DEDEDE;
 }
 /**---------------------------------------------------------------*/
 /*footer*/
@@ -221,7 +251,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 70px;
     margin-left: 150px;
-    margin-top: 0;
+    margin-top: 5%;
 }
 
 .form { /* estructura formulario de contacto*/
@@ -235,11 +265,12 @@ footer{
     margin-top: 0;
 }
 
-h1{
+.contact_h1{
     font-family: 'Share Tech';
     font-size: 50px;
     font-weight: 100;
     line-height: 100px;
+    color: #d9d9d9;
 }
 
 .contact-text {
@@ -676,6 +707,7 @@ details[open] summary::before {
 .services-h3 {
     font-family: share tech;
     color: #FFC709;
+    padding: 5%;
     font-weight: 350;
     font-size: 28px;
     border-bottom: 1px solid #1736F5; /* ajusta el color y grosor de la línea */
@@ -693,9 +725,16 @@ details[open] summary::before {
     color: #DEDEDE;
     margin-left: 50px;
 }
-
+.container_story{
+     width: 100%;
+     margin-right: 0;
+     margin-left: 0;
+}
 .services-project-button {
-    color: #DEDEDE;
+    color: #0B182D;
+    background-color: #FFC709;
+    border-radius: 20px;
+    padding: 0.5%;
 }
 /*------------------------------------------------------------------------------*/
 /*Inicio página blog*/

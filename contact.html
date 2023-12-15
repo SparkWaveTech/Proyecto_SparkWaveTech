@@ -15,22 +15,26 @@
         
 </head>
 <body class="contact-body-background">
-    <header>
-        <nav class="nav">
-            <div class="logo"><a href=""><img src="./Images/logoSWT.png" alt="logo de la empresa simulando una S"></a></div>
-                <ul class="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="services.html">Servicios</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a class="contact" href="contact.html">Contacta</a></li>
-                </ul>
-        </nav>
-    </header> 
-    
+  <header>
+    <nav class="nav">
+        <div class="logo"><a href="index.html"><img src="./Images/logoSWT.png" alt="logo de la empresa simulando una S"></a></div>
+        <button class="open_menu" id="open"><i class="bi bi-menu-button-wide"></i></button>
+        <div class="menu" id="menu">
+            <button class="close_menu" id="close"><i class="bi bi-x-square"></i></button>
+            <ul class="nav_list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./services.html">Servicios</a></li>
+                <li><a href="./blog.htm">Blog</a></li>
+                <li><a class="contact" href="./contact.html">Contacta</a></li>
+            </ul> 
+        </div>
+    </nav>
+</header> 
+
     <section class="section">
         <div class="form">
-        <h1>Contáctenos</h1>
+        <h1 class="contact_h1">Contáctenos</h1>
         <p class="contact-text">¡Gracias por tu interés en SparkWave Tech!
         <br>Si tienes alguna consulta o necesitas más información, por favor completa el <br> siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
 
@@ -75,10 +79,10 @@
     
     <section class="final">
         <div class="container_final">
-            <div class="FAQ">
-                <h3>FAQ?</h3>
-                <button><a href="">Contáctanos</a></button>
-            </div>
+          <div class="FAQ">
+            <h3>FAQ?</h3>
+            <button class="boton_questions"><a href="contact.html">Contáctanos</a></button>
+        </div>
            <!-- prueba para que se deplieguen las preguntas -->
     <div class="accordion-accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
