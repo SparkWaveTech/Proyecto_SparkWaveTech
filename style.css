@@ -823,6 +823,13 @@ details[open] summary::before {
         border: 0;
         font-size: 1.2rem;
         color: #DEDEDE;
+        padding: ;
+    }
+    .open_menu{
+        margin-left: 30%;
+    }
+    .close_menu{
+        ;
     }
     .menu{
         opacity: 0;
