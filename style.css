@@ -73,6 +73,12 @@ header{
 .title{
     color: white;
 }
+.open_menu{
+    background-color: #0B182D;
+}
+.close_menu{
+    background-color: #0B182D;
+}
 /*---------------------Aquí empieza la home--------------------------------------------------------- */
 
 .home{
