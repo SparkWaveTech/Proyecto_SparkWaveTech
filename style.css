@@ -67,10 +67,9 @@ header{
 h1{
     color: white;
 }
-/*Aquí empieza la home */
+/*---------------------Aquí empieza la home--------------------------------------------------------- */
 
 .home{
-    /* background-image: url(Images/fondo\ home.png); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,7 +156,6 @@ h1{
     justify-content: space-between;
     align-items: center;
     gap: 3em;
-
 }
 .FAQ h3{
     font-size: 3em;
