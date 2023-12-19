@@ -159,11 +159,149 @@ footer{
 
 /*------------------------------------EMPIEZA PÁGINA DE CONTACTO---------------------------------------------------*/
 
+
 .contact-body-background {
     background-color: #0B182D; /*color del fondo de la página de contactos*/
 }
 
-.section { 
+.contact-us{
+    display: flex;
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 100px;
+    text-align: center;
+}
+
+.contact-text {
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contact-form {
+    color: #DEDEDE;
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.name-form {
+    font-family: 'Open Sans';
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 5px;
+}
+
+.surname-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.email-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 5px;
+}
+
+.phone-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 5px;
+}
+
+.message-form{
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 5px;
+}
+
+.enviar { /*botón de enviar formulario */
+    background-color: #1736f5;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #DEDEDE;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    margin-top: 20px;
+    border-style: none;
+}
+
+.contact-title {
+    font-family: 'Share Tech';
+    font-size: 20px;
+    color: #808080;
+    line-height: normal;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-text {
+    font-family: 'Share Tech';
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.contact-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yellow-arow {
+    height: 15px;
+}
+
+/* -------------------------------------RESPONSIVE CONTACTO DESKTOP-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+.section-contact-form { 
     display: grid; /*estructura en grid de la sección*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 70px;
@@ -289,14 +427,14 @@ footer{
     color: #808080;
     line-height: normal;
     margin-top: 15px;
-    display: inline-block
+    text-align: left;
 }
 
 .contact-text {
     margin-top: 5px;
     font-size: 16px;
+    text-align: left;
 }
 
-/* -------------------------------------RESPONSIVE CONTACTO MÓVIL-----------------------------------*/
 
-
+}
