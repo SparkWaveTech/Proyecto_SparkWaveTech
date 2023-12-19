@@ -507,7 +507,7 @@ details[open] summary::before {
    flex-direction: row;
    justify-content: start;
    justify-content: space-around;
-    margin-top: 0.82em;
+    /* margin-top: 0.82em; */
     margin-bottom: 10vw;
 }
 
