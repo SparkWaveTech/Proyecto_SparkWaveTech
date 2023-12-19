@@ -1177,7 +1177,6 @@ details[open] summary::before {
     opacity: 1;
   }
 
-/* FIN PAGINA SERVICES */
   /* MEDIA QUERIES */
   @media screen and (max-width: 768px) {
 
@@ -1234,9 +1233,11 @@ details[open] summary::before {
 
     .principios-list {
         font-size: 0.6em;
-        margin-left: 2em;
+        margin: 0;
+        margin-top: 2em;
         padding-bottom: 0;
         justify-content: center;
+        padding: 0;
     }
 
     /* THIRD PART */
@@ -1280,13 +1281,14 @@ details[open] summary::before {
     }
 
     .solutions p {
-        font-size: 0.6em;
-        margin-left: 0;
+        font-size: 0.52em;
+        margin: 0;
+        margin-right: 6.2em;
     }
 
     .solutions h1 {
         font-size: 1.3em;
-        margin-left: 2em;
+        margin-left: 1.4em;
         padding: 0;
         justify-content: center;
     }
@@ -1295,13 +1297,12 @@ details[open] summary::before {
         font-size: 0.6em;
         padding: 0;
         margin: 0;
-        justify-content: center;
     }
 
     /* LISTA DESPLEGABLE */
 
     .solutions-list summary {
-        font-size: 1.2em;
+        font-size: 1em;
         margin: 0;
         justify-content: center;
     }
