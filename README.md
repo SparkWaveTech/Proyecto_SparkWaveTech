@@ -11,13 +11,13 @@ Junto con otras compañeras programadoras, has decidido crear una consultoría t
 Para daros a conocer habéis decidido crear una landing page que muestre, de manera clara y visual, quiénes soy, qué servicios ofreceis y qué os hace diferentes al resto de consultoras de la ciudad.
 
 Criterios de rendimiento
-● Maquetación detallada, completa y visualmente significativa
-● La página web debe ser responsive
-● Entrega correcta de archivos en Git
-● Pautas de trabajo en clase cumplidas
-● Pautas de interacciones con Formadores cumplidas
-● Pautas de interacciones con Co-Coders cumplidas
-● Pautas de presentación de trabajo cumplidas
-● Criterios de buenas prácticas trabajadas hasta el momento cumplidos
+● Maquetación detallada, completa y visualmente significativa.
+● La página web debe ser responsive.
+● Entrega correcta de archivos en Git.
+● Pautas de trabajo en clase cumplidas.
+● Pautas de interacciones con Formadores cumplidas.
+● Pautas de interacciones con Co-Coders cumplidas.
+● Pautas de presentación de trabajo cumplidas.
+● Criterios de buenas prácticas trabajadas hasta el momento cumplidos.
 
 
