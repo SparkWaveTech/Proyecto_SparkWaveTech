@@ -1,0 +1,1409 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.services__home {
+    font-family: 'Open Sans', sans-serif;
+    height: 200vh;
+    background-color: #0B182D;
+    width: 100%;
+}
+.index__home{
+    background-color: #0B182D;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 16vh; 
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    width: 100%;
+    background-color: #0B182D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    transition: all 0.5s ease;
+    position: fixed;
+}
+.nav_list{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 15px;
+    font-family: 'Share Tech', sans-serif;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #DEDEDE;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: 'Share Tech', sans-serif;
+}
+.menu .contact{
+    color: #FFC709;
+}
+.menu li a:hover{
+    padding: 2rem;
+    background: #0B182D;
+    color: #FFC709;
+    border-radius: 15px;
+}
+.open_menu, .close_menu{
+    display: none;
+}
+.scrol {
+    height: 100%;
+}
+.title{
+    color: white;
+}
+.open_menu{
+    background-color: #0B182D;
+}
+.close_menu{
+    background-color: #0B182D;
+}
+/*---------------------Aquí empieza la home--------------------------------------------------------- */
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    background-color: #0B182D;
+    padding: 5%;
+    width: 100%;
+}
+.index_main{
+    width: 100%;
+}
+.descriptionweb h1{
+    font-size: 3em;
+    color: #DEDEDE;
+    font-size: 4vw;
+    font-family: Open Sans;
+    font-weight: 600; 
+    text-align: center;
+}
+.descriptionweb p{
+    color: #FFC709;
+    font-size: 2vw;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.descriptionweb{
+    background-image: url(/Images/fondo\ home.png);
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.home_function{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.home_stadistic{
+    position: absolute;
+    top: 85%;
+    right: 11%;
+}
+.porcentage{
+    color: #FFC709;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index_porcentage{
+    background-image: url(/Images/fondo\ home.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 50px;
+}
+.index_porcentage h4{
+    font-size: 4em;
+}
+.index_porcentage p{
+    font-size: 0.9em;
+}
+.index_services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.index_services article{
+    width: 100%;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+}
+.exito_history{
+    color: #DEDEDE;
+    margin-top: 10%;
+    padding: 40px;
+}
+.image_arrow{
+   text-align: center; 
+}
+.diseño_exito{
+    text-align: right;
+    padding: 40px;
+}
+.image_exito{
+    padding: 40px;
+    margin-top: 5%;
+}
+.sipSavor h3{
+    color: #FFC709;
+}
+.sipSavor{
+    padding: 10%;
+    font-size: 1em;
+    font-family: 'Share Tech', sans-serif;
+}
+.exito_vintage h3{
+    font-size: 3em;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Aquí empieza el FAQ*/
+.final .container_final{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.final{
+    color: white;
+    background-color: #0B182D;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.container_final .questions{
+    list-style: none;
+    text-align: right;
+}
+.container_final .questions a{
+    text-decoration: none;
+    color: white;
+}
+.container_final .questions a:hover{
+    color: #FFC709;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+.FAQ h3{
+    font-size: 3em;
+    font-family: 'Share Tech', sans-serif;
+}
+.container_final{
+    margin: 0;
+    padding: 25px;
+}
+.boton_questions{
+    font-family: 'Share Tech', sans-serif;
+    background-color: #0B182D;
+    border-radius: 10px;
+    padding: 10px;
+}
+.boton_questions a{
+    text-decoration: none;
+    color: #DEDEDE;
+}
+/**---------------------------------------------------------------*/
+/*footer*/
+footer{
+    color: white;
+    background-color: #0B182D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0;
+    gap: 25px;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 10px;
+}
+
+
+/*------------------------------------EMPIEZA PÁGINA DE CONTACTO---------------------------------------------------*/
+
+
+.contact-body-background {
+    background-color: #0B182D; /*color del fondo de la página de contactos*/
+}
+
+.contact-us{
+    display: flex;
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-size: 2.25em;
+    font-weight: 100;
+    line-height: 6.25rem;
+    padding-left: 10%;
+}
+
+.contact-text {
+    font-family: 'Share Tech';
+    font-size: 1em;
+    font-size: 0.93em;
+    color: #DEDEDE;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 0.3rem;
+}
+
+.contact-form {
+    color: #DEDEDE;
+    margin-top: 3.12rem;
+    font-size: 0.87em;
+    text-align: center;
+}
+
+.name-form {
+    font-family: 'Open Sans';
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.surname-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.62rem;
+    margin-left: 0.3rem;
+}
+
+.email-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.phone-form { 
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.message-form{
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-family: 'Open Sans';
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.enviar { /*botón de enviar formulario */
+    background-color: #1736f5;
+    font-family: 'Open Sans';
+    font-size: 0.93em;
+    color: #DEDEDE;
+    width: 80%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.56rem;
+    margin-top: 1.25rem;
+    border-style: none;
+}
+
+.contact-title {
+    font-family: 'Share Tech';
+    font-size: 1.25em;
+    color: #808080;
+    line-height: normal;
+    margin-top: 0/* .5rem */;
+    text-align: center;
+    align-items: center;
+}
+
+.section-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.contact-info {
+    margin-bottom: 3.12rem; 
+    margin-top: 3.12rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.contact-info h1{
+    margin-top: 6%;
+}
+
+.contact-text-info {
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 0.93em;
+    text-align: center;
+}
+
+/* -------------------------------------RESPONSIVE CONTACTO DESKTOP-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+.section-contact-form { 
+    display: grid; /*estructura en grid de la sección*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4.37rem;
+    margin-left: 9.37rem;
+    margin-top: 0;
+}
+
+.form { /* estructura formulario de contacto*/
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contact-info { /*estructura info contacto*/
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 0;
+    padding: 0;
+}
+
+.contact-us{
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 6.25rem;
+    padding: 0;
+}
+
+.contact-text {
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0;
+}
+
+.contact-form {
+    color: #DEDEDE;
+    margin-top: 3.12rem;
+    font-size: 0.87em;
+    padding: 0;
+}
+
+.name-form {
+    width: 50%;
+}
+
+.surname-form {
+    width: 47%;
+}
+
+.email-form {
+    width: 100%;
+}
+
+.phone-form {
+    width: 100%;
+}
+
+.message-form{
+    width: 100%;
+}
+
+.enviar { 
+    font-size: 1.25em;
+    width: 100%;
+}
+
+.contact-title {
+    font-size: 1.25em;
+    color: #808080;
+    line-height: normal;
+    margin-top: 0.93rem;
+    text-align: left;
+}
+
+.contact-text-info {
+    margin-top: 0.3rem;
+    font-size: 1em;
+    text-align: left;
+}
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*A partir de aquí empieza la página de Nosotros */
+.Nosotros{
+    background-color: #0B182D;
+    height: 30vh;
+}
+.descriptionTeam {
+    color: #DEDEDE;
+}
+.textTeam{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_rectangle h4{
+    color: #DEDEDE;
+    font-size: 4em;
+    font-family: 'Share Tech', sans-serif;
+    margin: 0;
+}
+.text_rectangle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.text_rectangle img {
+    max-width: 100%;
+        height: auto;
+        margin: 10px;
+}
+.images_team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.coder {
+    color: #DEDEDE;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.coder h6{
+    font-family: 'Share Tech', sans-serif;
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.coder h5{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    text-align: left
+}
+.coder p{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1em;
+}
+.team_person{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2%;
+    gap: 3%;
+}
+.Our_team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+/*----------------------------------------------------------------------------*/
+/* SERVICES WEBSITE */
+
+/* FIRST SECTION DESIGN-SOLUTIONS */
+
+.design-solutions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10vh;
+}
+
+/*MOUSE FOR SCROLL*/
+.icon-scroll-services {
+    width: 30px;
+    height: 73px;
+    margin-left: 1500px;
+    position: fixed; /*CAMBIAR POSITION DEL ICONO */
+}
+
+/*IMG CENTRAL*/
+.img-central {
+    width: 40%;
+    height: 40%;
+    margin-left: 25vw;
+    margin-top: 8vw;
+}
+
+/*ALL H1 AND H6 OF WEBSITE*/
+.services-h1 {
+    font-family: share tech;
+    font-size: 50px;
+    font-weight: 500;
+    color:#DEDEDE;
+    width: 100%; /*ASEGURA LA VISIBILIDAD DE TODO EL TITULO*/
+    margin-left: 150px;
+}
+
+.services-h6 {
+    color: #1736F5;
+    font-family: share tech;
+    font-weight: 800;
+    margin-left: 150px;
+}
+
+
+/* SECOND PART PRINCIPIOS*/
+
+.principios {
+    padding: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+/*TITLE*/
+.left-principios {
+    padding-right: 15vh;
+    width: 100%; /*ASEGURA LA VISIBILIDAD DE TODO EL TITULO*/
+}
+
+/*LIST OF PRINCIPIOS*/
+.principios-list {
+    font-size: 22px;
+    color: #DEDEDE;
+    padding: 10vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* THIRD PART WEBSITE */
+
+
+/* USER EXPERIENCE */
+
+.left-ux {
+    width: 100%; /*ASEGURA LA VISIBILIDAD COMPLETA DEL TITULO*/
+}
+
+.ux-experience {
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.container-ux-img-list {
+    display: flex;
+    flex-direction: row;
+    padding: 5em;
+}
+
+.ux-experience-img {
+    width: 48%;
+    height: 48%;
+}
+
+.ux-list {
+    color: #DEDEDE;
+    list-style: none;
+    margin-left: 150px;
+}
+
+
+/*FOURTH PART OF WEBPAGE*/
+
+/* SOLUTIONS */
+
+.solutions .solutions-title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.solutions h6 {
+    text-align: left;
+    margin-left: 8%;
+}
+
+.services-solutions-h6 {
+    color: #1736F5;
+    font-family: share tech;
+}
+
+.solutions-description {
+    color: #DEDEDE;
+    margin-right: 150px;
+    margin-left: 250px;
+}
+
+.solutions-list {
+    list-style: none;
+    color: #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18%;
+}
+
+/* RECUADRO DESPLEGABLE CON ETIQUETA DETAILS Y SUMMARY */
+details summary {
+    list-style: none; /* ocultamos la flecha */
+    cursor: pointer; /* cambia el cursor del puntero */
+}
+
+details p {
+    background-color: #0B182D; /* Nuevo color de fondo (azul más oscuro) */
+    color: #d9d9d9; /* Nuevo color de texto */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Nuevo box shadow con un tono más oscuro y efecto 3D */
+    border-radius: 5px; /* Borde de la caja del contenido oculto */
+}
+
+details {
+    position: relative;
+}
+
+.item-title:hover {
+    color:#FFC709;
+    cursor: pointer;
+}
+
+/* Estilo para el emoji en el summary */
+details summary::before {
+    position: absolute;
+    content: "🔽";
+    font-size: 1.5rem;
+    top: 8px;
+    right: 10%;
+}
+
+/* Animación de rotación para el emoji cuando el details está abierto */
+details[open] summary::before {
+    animation: rotate-emoji 0.6s ease-in-out both;
+}
+
+/* Keyframes para la animación de rotación */
+@keyframes rotate-emoji {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate-emoji {
+    /* 0% {
+        transform: rotate(0);
+    } */
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+
+.item-title {
+    font-family: share tech;
+    font-size: 40px;
+    padding: 30px;
+    margin-left: 10vh;
+    line-height: 80px;
+}
+
+.item-detail {
+    padding: 1rem;
+    margin-left: 12vw;
+    margin-right: 42vw;
+    margin-bottom: 60px;
+}
+
+
+/* FIFTH PART SUCCESS STORIES */
+
+/*PICTURE OF CLOTHING SHOP */
+
+.icon-arrow {
+    margin-left: 30vw;
+    margin-top: 4vw;
+}
+
+.happyvintage-img {
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 100px;   
+}
+
+.container-happyvintage {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 2vw;
+    margin-top: 0.82em;
+}
+
+.services-h3 {
+    font-family: share tech;
+    color: #FFC709;
+    padding: 5%;
+    font-weight: 350;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-top: 0.55em;
+}
+
+.story-description {
+    color: #DEDEDE;
+    margin-left: 6em;
+}
+.container_story{
+     width: 100%;
+     margin-right: 0;
+     margin-left: 0;
+}
+.services-project-button {
+    color: #0B182D;
+    background-color: #FFC709;
+    border-radius: 20px;
+    padding: 0.5%;
+}
+/*------------------------------------------------------------------------------*/
+/*Inicio página blog*/
+.blog_home {
+    background-color: #0B182D;
+}
+.blog{
+    color: #DEDEDE;
+    background-color: #0B182D;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+.inicio-blog{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.blog h1 {
+    margin-left: 5%;
+    font-family: 'Share Tech', sans-serif;
+}
+.blog img{
+    border-radius: 200px 0px 200px 200px;
+    width: 239px;
+    height: 218px;
+    flex-shrink: 0;
+}
+.bloque-noticias {
+    display: flex;
+    width: 100%; /* Ancho deseado para el contenedor */
+    margin: 5%;
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+}
+.noticia {
+    flex: 1; /* Opción para dividir el espacio igualmente entre los bloques */
+    /* Otros estilos para los bloques */
+    vertical-align: top; /* Alinea la imagen al inicio verticalmente */
+}
+.noticia h3 {
+ font-family: 'Share Tech', sans-serif;
+}
+
+.imagennoticia {
+    display: flex;
+    vertical-align: top;
+}
+.textonoticia{
+    width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+.textonoticia h3:hover {
+    color: #FFC709;
+}
+.imgagennoticia a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto circundante */
+}
+/*preguntas footer*/
+.accordion-accordion-flush{
+    color: #DEDEDE; 
+    margin-top: 3%;
+}
+.accordion-header:active {
+    color: #FFC709;
+}
+.accordion-collapse {
+    font-size: small;
+}
+.accordion-accordion-flush {
+  width: 40%; /* Ancho de 300 píxeles */
+  height: 30%; /* Alto de 200 píxeles */
+  display: block;
+}
+.accordion-item {
+    margin-top: 3%;
+}
+  
+
+/*fin preguntas footer*/
+/*mediaqueries blog*/
+@media screen and (max-width: 768px) {
+    .bloque-noticias {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    }
+    .noticia {
+        margin-top: 10%;
+        font-size: small;
+}
+.blog img{
+    border-radius: 200px 0px 200px 200px;
+    width: 139px;
+    height: 118px;
+    flex-shrink: 0;
+}
+.inicio-blog {
+    font-size: small;
+}
+.final .container_final {
+    display: block; /* Cambia a bloque para mostrar elementos uno debajo del otro */
+  }
+  .accordion-accordion-flush {
+    /* Propiedades del borde */
+  width: 100%; /* Ancho de 300 píxeles */
+  display: block;
+}
+.accordion-item {
+    margin-top: 5%;
+}
+}
+/*FIN PÁGINA DE BLOG*/
+/*------------------------------------------------------------------------------*/
+/**----------Responsivo---------*/
+ @media (max-width: 768px) {
+    .Our_team {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .team_person{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_person .coder{
+        text-align: center;
+    }
+    .text_rectangle img{
+        max-width: 50%;
+        max-height: 50%;
+    }
+    .text_rectangle h4{
+        text-align: center;
+    }
+}
+
+/*--------VERSION MÓVIL-----------*/
+@media only screen and (max-width: 708px){
+
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image_home{
+        width: 100%;
+    }
+    .descriptionweb h1{
+        font-size: 2em;
+    }
+    .descriptionweb p{
+        font-size: 1em;
+    }
+    .boton_contact{
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .container_final{
+        display: flex;
+        flex-direction: column;
+    }
+    .questions{
+        margin-top: 10%;
+    }
+    .textTeam{
+        font-size: 1em;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .img_group{
+        width: 90%;
+        height: auto;
+    }
+    .images_team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right:10%;
+        margin-left: 10%;
+    }
+    .triangleBlue{
+        width: 10%;
+        height: 10%;
+    }
+    .FAQ{
+        margin-bottom: 10%;
+    }
+    .FAQ h3{
+        font-size: 1.1em;
+    }
+    .open_menu, .close_menu{
+        display: block;
+        border: 0;
+        font-size: 1.2rem;
+        color: #DEDEDE;
+    }
+    .open_menu{
+        margin-left: 30%;
+    }
+    .menu{
+        opacity: 0;
+        visibility: hidden;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #0B182D;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .menu.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav_list{
+        flex-direction: column;
+        align-items: end; 
+    }
+    .team{
+        margin-top: 10%;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordion-accordion-flush{
+        padding: 8%;
+        text-align: justify;
+    }
+    /*---------------------index------------*/
+    .home_macbook{
+        width: 60%;
+    }
+    .home_function, .home_stadistic{
+        width: 34%;
+        position: absolute;
+        top: 40%;
+    }
+    .home{
+        width: 100%;
+        margin: 0;
+    }
+    .index_porcentage{
+        padding: 2%;
+        font-size: 0.5em;
+        margin-bottom: 0;
+    }
+    .image_arrow{
+        height: 50px;
+        margin-bottom: 5%;
+    }
+    .diseño_exito img{
+        width: 70%;
+        height: 70%;
+    }
+    .exito_vintage img{
+        width: 70%;
+        height: 70%;
+    }
+    .exito_vintage h3{
+        font-size: 1.5em;
+    }
+}
+
+/* SIP SAVOR CAFE */
+
+.sipsavorcafe-img {
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+
+.container-sipsavorcafe {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 1.5em;
+    margin-bottom: 10vw;
+}
+
+.cafe-story-description {
+    color: #DEDEDE;
+    padding-right: 10em;
+    margin-left: 1.5em}
+
+/* BUTTON DESIGN */
+
+.services-project-button {
+    margin-right: 6em;
+    font-family: share tech;
+
+}
+
+
+.services-project-button {
+    display: inline-block;
+    width: 15em;
+    height: 5em;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #DEDEDE;
+    background-color: #1736F5; /* Azul oscuro */
+    border: 0.2em solid #1a1a1a; /* Borde inicial */
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+
+  /* Estilo al pasar el cursor sobre el botón */
+  .services-project-button:hover {
+    background-color: #0077cc; /* Azul más llamativo */
+    border-color: #0077cc; /* Borde al pasar el cursor */
+    color: #FFC709;
+  }
+
+  .services-project-button::before {
+    background: linear-gradient(45deg, #0077cc, #1a1a1a, #0077cc);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .services-project-button:hover::before {
+    opacity: 1;
+  }
+
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 768px) {
+
+    /*FIRST PART */
+
+    .design-solutions {
+        flex-direction: column;
+    }
+
+    .design-solutions h1 {
+        font-size: 1.3em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .design-solutions h6 {
+        font-size: 0.6em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .img-central {
+        width: 15em;
+        height: 15em;
+        margin: 0;
+        margin: 2em;
+        justify-content: center;
+    }
+
+    .icon-scroll-services {
+        margin-left: 22em;
+        width: 1em;
+        height: 2em;
+    }
+
+
+    /* SECOND PART */
+
+    .principios {
+        flex-direction: column;
+    }
+
+    .principios h1 {
+        font-size: 1.3em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .principios h6 {
+        font-size: 0.6em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .principios-list {
+        font-size: 0.6em;
+        margin: 0;
+        margin-top: 2em;
+        padding-bottom: 0;
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* THIRD PART */
+
+    .left-ux h1 {
+        font-size: 1.3em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .left-ux h6 {
+        font-size: 0.6em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .container-ux-img-list {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-ux-img-list img {
+        width: 20em;
+        height: 18em;
+        padding: 1em;
+    }
+
+    .container-ux-img-list ul {
+        font-size: 0.6em;
+        margin-left: 0.2em;
+        margin-right: 10em;
+        padding: 0;
+        justify-content: center;
+    }
+
+    /* FOURHT PART */
+
+    .solutions {
+        flex-direction: column;
+    }
+
+    .solutions p {
+        font-size: 0.52em;
+        margin: 0;
+        margin-right: 6.2em;
+    }
+
+    .solutions h1 {
+        font-size: 1.3em;
+        margin-left: 1.4em;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .services-solutions-h6 {
+        font-size: 0.6em;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* LISTA DESPLEGABLE */
+
+    .solutions-list summary {
+        font-size: 1em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .solutions-list p {
+        font-size: 0.6em;
+        margin-left: 2.5em;
+    }
+
+    /* FIFTH PART */
+
+    .story-example {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-arrow {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .happyvintage-img img{
+        display: flex;
+        width: 70%;
+        height: 70%;
+        margin-left: 2em;
+    }
+
+    .container-happyvintage {
+        justify-content: left;
+    }
+
+    .container-happyvintage h3 {
+        font-size: 1em;
+        margin-right: 2em;
+    }
+
+    .container-happyvintage p {
+        font-size: 0.6em;
+    }
+
+    .sipsavorcafe-img {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-left: 2em;
+    }
+    .sipsavorcafe-img img{
+        width: 80%;
+        height: 70%;
+    }
+    
+    .container-sipsavorcafe {
+        flex-direction: column;
+    }
+
+    .container-sipsavorcafe h3 {
+        font-size: 1em;
+    }
+
+    .container-sipsavorcafe p {
+        font-size: 0.6em;
+        margin: 1.8em;
+    }
+
+    .services-project-button {
+        font-size: 0.7em;
+        width: 13.5em;
+        height: 4.2em;
+        /* margin-left: 20em; */
+        text-align: center;
+        margin-left: 50%;
+   }
+   .services__home{
+    margin: 0;
+   }
+  .map{
+    padding: 10%;
+    margin: 0;
+  }
+  .contact-text{
+    text-align: left;
+    padding: 10%;
+  }
+  .contact-body-background{
+    margin: 0;
+  }
+  .section-contact-form {
+    margin: 0 0; 
+  }
+  .contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+/* FIN PAGINA SERVICES */
