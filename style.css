@@ -177,7 +177,12 @@ header{
     color: #FFC709;
 }
 .sipSavor{
-    padding: 40px;
+    padding: 10%;
+    font-size: 1em;
+    font-family: 'Share Tech', sans-serif;
+}
+.exito_vintage h3{
+    font-size: 3em;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*Aquí empieza el FAQ*/
@@ -377,15 +382,17 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .contact-info {
-    margin-top: 3.12rem;
-    margin-bottom: 3.12rem;
+    /* margin-bottom: 3.12rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.contact-info h1{
+    margin-top: 20%;
 }
 
 .contact-text-info {
@@ -1370,6 +1377,25 @@ details[open] summary::before {
         height: 4.2em;
         margin-left: 20em;
 
+  }
+  .map{
+    padding: 10%;
+    margin: 0;
+  }
+  .contact-text{
+    text-align: left;
+    padding: 10%;
+  }
+  .contact-body-background{
+    margin: 0;
+  }
+  .section-contact-form {
+    margin: 0 0; 
+  }
+  .contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
