@@ -246,18 +246,166 @@ footer{
     padding-top: 10px;
 }
 
+
 /*------------------------------------EMPIEZA PÁGINA DE CONTACTO---------------------------------------------------*/
+
 
 .contact-body-background {
     background-color: #0B182D; /*color del fondo de la página de contactos*/
 }
 
-.section { 
+.contact-us{
+    display: flex;
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    font-size: 2.25em;
+    font-weight: 100;
+    line-height: 6.25rem;
+    padding-left: 10%;
+}
+
+.contact-text {
+    font-family: 'Share Tech';
+    font-size: 1em;
+    font-size: 0.93em;
+    color: #DEDEDE;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 0.3rem;
+}
+
+.contact-form {
+    color: #DEDEDE;
+    margin-top: 3.12rem;
+    font-size: 0.87em;
+    text-align: center;
+}
+
+.name-form {
+    font-family: 'Open Sans';
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.surname-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.62rem;
+    margin-left: 0.3rem;
+}
+
+.email-form {
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.phone-form { 
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.message-form{
+    width: 80%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #DEDEDE;
+    color: #DEDEDE;
+    font-family: 'Open Sans';
+    font-size: 0.93em;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 0.3rem;
+}
+
+.enviar { /*botón de enviar formulario */
+    background-color: #1736f5;
+    font-family: 'Open Sans';
+    font-size: 0.93em;
+    color: #DEDEDE;
+    width: 80%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.56rem;
+    margin-top: 1.25rem;
+    border-style: none;
+}
+
+.contact-title {
+    font-family: 'Share Tech';
+    font-size: 1.25em;
+    color: #808080;
+    line-height: normal;
+    margin-top: 0.93rem;
+    text-align: center;
+    align-items: center;
+}
+
+.section-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.contact-info {
+    margin-top: 3.12rem;
+    margin-bottom: 3.12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-text-info {
+    font-family: 'Share Tech';
+    color: #DEDEDE;
+    margin-top: 0.3rem;
+    font-size: 0.93em;
+    text-align: center;
+}
+
+/* -------------------------------------RESPONSIVE CONTACTO DESKTOP-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+.section-contact-form { 
     display: grid; /*estructura en grid de la sección*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 70px;
-    margin-left: 150px;
-    margin-top: 5%;
+    gap: 4.37rem;
+    margin-left: 9.37rem;
+    margin-top: 0;
 }
 
 .form { /* estructura formulario de contacto*/
@@ -269,122 +417,74 @@ footer{
     grid-column-start: 3;
     grid-column-end: 3;
     margin-top: 0;
+    padding: 0;
 }
 
-.contact_h1{
+.contact-us{
     font-family: 'Share Tech';
-    font-size: 50px;
+    color: #DEDEDE;
+    font-size: 3em;
     font-weight: 100;
-    line-height: 100px;
-    color: #d9d9d9;
+    line-height: 6.25rem;
+    padding: 0;
 }
 
 .contact-text {
     font-family: 'Share Tech';
     color: #DEDEDE;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 100;
+    padding: 0;
 }
 
 .contact-form {
     color: #DEDEDE;
-    margin-top: 50px;
-    font-size: 14px;
+    margin-top: 3.12rem;
+    font-size: 0.87em;
+    padding: 0;
 }
 
 .name-form {
-    font-family: 'Open Sans';
     width: 50%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #DEDEDE;
-    color: #DEDEDE;
-    font-size: 15px;
-    outline: none;
-    transition: border-color .2s;
-    margin-bottom: 5px;
 }
 
 .surname-form {
     width: 47%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #DEDEDE;
-    color: #DEDEDE;
-    font-size: 15px;
-    outline: none;
-    transition: border-color .2s;
-    margin-bottom: 10px;
-    margin-left: 5px;
 }
 
 .email-form {
     width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #DEDEDE;
-    color: #DEDEDE;
-    font-size: 15px;
-    outline: none;
-    transition: border-color .2s;
-    margin-bottom: 5px;
 }
 
 .phone-form {
     width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #DEDEDE;
-    color: #DEDEDE;
-    font-size: 15px;
-    outline: none;
-    transition: border-color .2s;
-    margin-bottom: 5px;
 }
 
 .message-form{
     width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #DEDEDE;
-    color: #DEDEDE;
-    font-family: 'Open Sans';
-    font-size: 15px;
-    outline: none;
-    transition: border-color .2s;
-    margin-bottom: 5px;
 }
 
-.enviar { /*botón de enviar formulario */
-    background-color: #1736f5;
-    font-family: 'Open Sans';
-    font-size: 20px;
-    color: #DEDEDE;
+.enviar { 
+    font-size: 1.25em;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 9px;
-    margin-top: 20px;
-    border-style: none;
 }
 
 .contact-title {
-    font-size: 20px;
+    font-size: 1.25em;
     color: #808080;
     line-height: normal;
-    margin-top: 15px;
-    display: inline-block
+    margin-top: 0.93rem;
+    text-align: left;
 }
 
-.contact-text {
-    margin-top: 5px;
-    font-size: 16px;
+.contact-text-info {
+    margin-top: 0.3rem;
+    font-size: 1em;
+    text-align: left;
 }
+
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*A partir de aquí empieza la página de Nosotros */
 .Nosotros{
