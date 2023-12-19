@@ -350,7 +350,6 @@ footer{
     color: #DEDEDE;
     list-style: none;
     margin-left: 150px;
-    margin-right: 200px;
 }
 
 
@@ -475,12 +474,12 @@ details[open] summary::before {
 .happyvintage-img {
     text-align: end;
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 100px;   
 }
 
 .container-happyvintage {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: end;
     margin-right: 2vw;
     margin-top: 0.82em;
@@ -510,28 +509,30 @@ details[open] summary::before {
 .container-sipsavorcafe {
     display: flex;
    flex-direction: row;
-   justify-content: start;
    justify-content: space-around;
-    /* margin-top: 0.82em; */
+   padding: 1.5em;
     margin-bottom: 10vw;
 }
 
 .cafe-story-description {
     color: #DEDEDE;
     padding-right: 10em;
-}
+    margin-left: 1.5em}
 
 /* BUTTON DESIGN */
 
 .services-project-button {
     margin-right: 6em;
+    font-family: share tech;
 
 }
 
 
 .services-project-button {
     display: inline-block;
-    padding: 1em 2em;
+    width: 15em;
+    height: 5em;
+    border-radius: 50px;
     text-decoration: none;
     color: #DEDEDE;
     background-color: #1736F5; /* Azul oscuro */
@@ -569,21 +570,26 @@ details[open] summary::before {
 
     .design-solutions h1 {
         font-size: 1.3em;
-        margin-left: 2.5em;
+        margin: 0;
+        justify-content: center;
     }
 
     .design-solutions h6 {
         font-size: 0.6em;
-        margin-left: 5.2em;
+        margin: 0;
+        justify-content: center;
     }
 
     .img-central {
-        width: 40%;
-        height: 40%;
+        width: 15em;
+        height: 15em;
+        margin: 0;
+        margin: 2em;
+        justify-content: center;
     }
 
     .icon-scroll-services {
-        margin-left: 500px;
+        margin-left: 22em;
         width: 1em;
         height: 2em;
     }
@@ -597,34 +603,41 @@ details[open] summary::before {
 
     .principios h1 {
         font-size: 1.3em;
-        margin-left: 2.5em;
+        margin: 0;
+        justify-content: center;
     }
 
     .principios h6 {
         font-size: 0.6em;
-        margin-left: 5.2em;
+        margin: 0;
+        justify-content: center;
     }
 
     .principios-list {
         font-size: 0.6em;
         margin-left: 2em;
         padding-bottom: 0;
+        justify-content: center;
     }
 
     /* THIRD PART */
 
     .left-ux h1 {
         font-size: 1.3em;
-        margin-left: 2.5em;
+        margin: 0;
+        justify-content: center;
     }
-    
+
     .left-ux h6 {
         font-size: 0.6em;
-        margin-left: 5.2em;
+        margin: 0;
+        justify-content: center;
     }
 
     .container-ux-img-list {
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 
     .container-ux-img-list img {
@@ -635,12 +648,109 @@ details[open] summary::before {
 
     .container-ux-img-list ul {
         font-size: 0.6em;
-        margin: 0;
+        margin-left: 0.2em;
+        margin-right: 10em;
         padding: 0;
+        justify-content: center;
     }
 
+    /* FOURHT PART */
 
+    .solutions {
+        flex-direction: column;
+    }
+
+    .solutions p {
+        font-size: 0.6em;
+        margin-left: 0;
+    }
+
+    .solutions h1 {
+        font-size: 1.3em;
+        margin-left: 2em;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .services-solutions-h6 {
+        font-size: 0.6em;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    /* LISTA DESPLEGABLE */
+
+    .solutions-list summary {
+        font-size: 1.2em;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .solutions-list p {
+        font-size: 0.6em;
+        margin-left: 2.5em;
+    }
+
+    /* FIFTH PART */
+
+    .story-example {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-arrow {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .happyvintage-img {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-left: 2em;
+    }
+
+    .container-happyvintage {
+        justify-content: left;
+    }
+
+    .container-happyvintage h3 {
+        font-size: 1em;
+        margin-right: 2em;
+    }
+
+    .container-happyvintage p {
+        font-size: 0.6em;
+    }
+
+    .sipsavorcafe-img {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-left: 2em;
+    }
+    
+    .container-sipsavorcafe {
+        flex-direction: column;
+    }
+
+    .container-sipsavorcafe h3 {
+        font-size: 1em;
+    }
+
+    .container-sipsavorcafe p {
+        font-size: 0.6em;
+        margin: 1.8em;
+    }
+
+    .services-project-button {
+        font-size: 0.7em;
+        width: 13.5em;
+        height: 4.2em;
+        margin-left: 20em;
 
   }
 
+}
 /* FIN PAGINA SERVICES */
