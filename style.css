@@ -323,22 +323,27 @@ footer{
 /* USER EXPERIENCE */
 
 .left-ux {
-    margin-top: -850px;
     width: 100%; /*ASEGURA LA VISIBILIDAD COMPLETA DEL TITULO*/
 }
 
 .ux-experience {
     padding: 10vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 250px;
 }
 
+.container-ux-img-list {
+    display: flex;
+    flex-direction: row;
+    padding: 5em;
+}
+
 .ux-experience-img {
-    width: 40%;
-    height: 40%;
-    margin-left: -300px;
+    width: 48%;
+    height: 48%;
 }
 
 .ux-list {
@@ -551,6 +556,91 @@ details[open] summary::before {
 
   .services-project-button:hover::before {
     opacity: 1;
+  }
+
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 768px) {
+
+    /*FIRST PART */
+
+    .design-solutions {
+        flex-direction: column;
+    }
+
+    .design-solutions h1 {
+        font-size: 1.3em;
+        margin-left: 2.5em;
+    }
+
+    .design-solutions h6 {
+        font-size: 0.6em;
+        margin-left: 5.2em;
+    }
+
+    .img-central {
+        width: 40%;
+        height: 40%;
+    }
+
+    .icon-scroll-services {
+        margin-left: 500px;
+        width: 1em;
+        height: 2em;
+    }
+
+
+    /* SECOND PART */
+
+    .principios {
+        flex-direction: column;
+    }
+
+    .principios h1 {
+        font-size: 1.3em;
+        margin-left: 2.5em;
+    }
+
+    .principios h6 {
+        font-size: 0.6em;
+        margin-left: 5.2em;
+    }
+
+    .principios-list {
+        font-size: 0.6em;
+        margin-left: 2em;
+        padding-bottom: 0;
+    }
+
+    /* THIRD PART */
+
+    .left-ux h1 {
+        font-size: 1.3em;
+        margin-left: 2.5em;
+    }
+    
+    .left-ux h6 {
+        font-size: 0.6em;
+        margin-left: 5.2em;
+    }
+
+    .container-ux-img-list {
+        flex-direction: column;
+    }
+
+    .container-ux-img-list img {
+        width: 20em;
+        height: 18em;
+        padding: 1em;
+    }
+
+    .container-ux-img-list ul {
+        font-size: 0.6em;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
   }
 
 /* FIN PAGINA SERVICES */
