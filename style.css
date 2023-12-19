@@ -373,7 +373,7 @@ footer{
     font-size: 1.25em;
     color: #808080;
     line-height: normal;
-    margin-top: 0.5rem;
+    margin-top: 0/* .5rem */;
     text-align: center;
     align-items: center;
 }
@@ -391,15 +391,17 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: left;
 }
 .contact-info h1{
-    margin-top: 20%;
+    margin-top: 6%;
 }
 
 .contact-text-info {
     font-family: 'Share Tech';
     color: #DEDEDE;
     margin-top: 0.3rem;
+    margin-bottom: 0;
     font-size: 0.93em;
     text-align: center;
 }
