@@ -932,6 +932,9 @@ details[open] summary::before {
     .FAQ{
         margin-bottom: 10%;
     }
+    .FAQ h3{
+        font-size: 1.1em;
+    }
     .open_menu, .close_menu{
         display: block;
         border: 0;
@@ -967,6 +970,14 @@ details[open] summary::before {
     .team{
         margin-top: 10%;
     }
+    .final{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordion-accordion-flush{
+        padding: 8%;
+        text-align: justify;
+    }
     /*---------------------index------------*/
     .home_macbook{
         width: 60%;
@@ -980,9 +991,26 @@ details[open] summary::before {
         width: 100%;
         margin: 0;
     }
-
-
-
+    .index_porcentage{
+        padding: 2%;
+        font-size: 0.5em;
+        margin-bottom: 0;
+    }
+    .image_arrow{
+        height: 50px;
+        margin-bottom: 5%;
+    }
+    .diseño_exito img{
+        width: 70%;
+        height: 70%;
+    }
+    .exito_vintage img{
+        width: 70%;
+        height: 70%;
+    }
+    .exito_vintage h3{
+        font-size: 1.5em;
+    }
 }
 
 /* SIP SAVOR CAFE */
